@@ -19,6 +19,12 @@ class Header extends Component {
                         <LinkContainer to="/admin/products">
                             <NavItem>ADMIN</NavItem>
                         </LinkContainer>
+                        <LinkContainer to="/join">
+                            <NavItem>JOIN</NavItem>
+                        </LinkContainer>
+                        <LinkContainer to="/login">
+                            <NavItem>LOGIN</NavItem>
+                        </LinkContainer>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
